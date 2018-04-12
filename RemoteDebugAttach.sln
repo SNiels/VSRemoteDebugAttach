@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebugAttach", "RemoteDebugAttach\RemoteDebugAttach.csproj", "{9C722481-A5ED-4035-8CDF-163E5A60D7B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebugDetach", "RemoteDebugDetach\RemoteDebugDetach.csproj", "{0AAF0FEC-74F9-4610-89FB-E98C3D8EDEA8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{1A08216C-EE45-49E4-98F9-965C7162BF33}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.projitems*{1a08216c-ee45-49e4-98f9-965c7162bf33}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C722481-A5ED-4035-8CDF-163E5A60D7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C722481-A5ED-4035-8CDF-163E5A60D7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C722481-A5ED-4035-8CDF-163E5A60D7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C722481-A5ED-4035-8CDF-163E5A60D7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AAF0FEC-74F9-4610-89FB-E98C3D8EDEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAF0FEC-74F9-4610-89FB-E98C3D8EDEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAF0FEC-74F9-4610-89FB-E98C3D8EDEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAF0FEC-74F9-4610-89FB-E98C3D8EDEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F816927-BE19-4DB7-B018-128B2BC71807}
+	EndGlobalSection
+EndGlobal
